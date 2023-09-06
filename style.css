@@ -396,7 +396,7 @@ table{
 }
 table .Quantity{
     width:60px;
-    height:20px;
+    height:30px;
     background-color: beige;
     border-radius: 4px;
     padding:4px;
@@ -497,6 +497,14 @@ table .Quantity{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap:20px;
 }
+/*cart*/
+#universal{
+    height :69vh;
+    margin-top: 85px;
+}
+#checkout{
+    margin-top : 130px;
+}
 .pro{
     padding: 0px;
 }
@@ -507,7 +515,12 @@ table .Quantity{
 #header{
     height:4vh;
 }
-
+#mc_embed_signup{
+    width :100%;
+}
+#signup{
+    margin : 20px 0 1000px 0;
+}
 }
 @media(max-width: 1500px){
     .summary-container{
