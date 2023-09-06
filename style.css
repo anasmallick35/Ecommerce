@@ -51,9 +51,7 @@ color:rgb(65, 197, 65);
     bottom :-3px;
     left :2px;
 }
-#phone{
-    display: none;
-}
+
 #poster{
     background-image: url("assets/poster4.jpeg");
     width:100%;
@@ -90,9 +88,10 @@ color:rgb(65, 197, 65);
     box-shadow: 6px 6px 12px rgb(112, 98, 73);
 }
 #features .fe-box h2{
+    font-size: 25px;
     background-color: rgb(233, 212, 216);
     display: inline-block;
-    padding: 10px;
+    margin-top: 20px;
     border-radius: 2px;
 }
 #features .fe-box:nth-child(2) h2{
@@ -474,10 +473,29 @@ table .Quantity{
    padding: 0px;
    padding-top:40px;
 }
-
+#navbar li a{
+      font-size: 25px;
+}
+#checkout .coupon {
+    background-image: url("assets/coupon\ bg.png");
+    width:550px;
+    height:150px;
+}
+#poster{
+    height :32vh;
+}
+#poster2{
+    height : 30vh;
+}
 #product{
-    padding:0px;
+    padding:40px;
     margin: 0px;
+}
+#product .pro-container{
+    display:grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:20px;
 }
 .pro{
     padding: 0px;
@@ -485,32 +503,11 @@ table .Quantity{
 #arrivals{
     padding:40px;
 }
-#navbar{
-    display : flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top:0;
-    right:-400px;
-    width:300px;
-    height:100vh;
-    background-color: rgb(255, 255, 254);
-    padding:20px;
-}
-#navbar.active{
-    right:0px;
-}
-#navbar li{
-    margin: 20px 17px;
-}
+
 #header{
     height:4vh;
 }
-#phone{
-    display: flex;
-    align-items: center;
-}
+
 }
 @media(max-width: 1500px){
     .summary-container{
